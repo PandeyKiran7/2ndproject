@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html,body{
+    background-image: url(https://images.unsplash.com/photo-1612722536930-177bac259038?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    background-size: cover;
+
+}
+.header{
+    width: auto;
+    
+}
+/* styling for h1 */
+h1{
+    color: #bd3232;
+    font-size: 37px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+/* for h2 */
+h2{
+font-size: 27px;
+color: #bd3232;
+}
+.est{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Styling for paragraph */
+h1, h2, p{
+text-align: center;
+padding-bottom: 20px;
+}
+/* styling for items */
+.items{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    margin-left:17%;
+    background-color: chocolate;
+}
+img{
+    display: block;
+    justify-items: center;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 20px;
+}
+
+/* styling for hr */
+hr{
+    height: 0.35rem;
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
+/* for footer */
+.footer{
+   border-top: #bd3232;
+    margin-top: 20px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
